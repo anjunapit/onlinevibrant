@@ -1,0 +1,8 @@
+body { 
+	background-image: url(../images/bg-image.png);
+	background-repeat: repeat;
+}
+.error-template {
+	padding: 100px 15px;
+	text-align: center;
+}

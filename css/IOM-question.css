@@ -1,0 +1,35 @@
+.title-wrapper h5{
+	margin:20px 0;
+	font-size: 20px;
+	text-align: center;
+	color:#0D1C52;
+	background-color:  #bfbfbf;
+	padding:20px;
+	border-radius: 5px;
+
+}
+.old-question-wrapper{
+	border:1px solid #eee;
+	padding:20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px 1px #757575;
+	text-decoration: none;
+	color:#757575;
+	position: relative;
+}
+.column{
+	margin-top: 8px;
+}
+.column a:hover{
+	text-decoration: none;
+}
+.old-question-wrapper:hover{
+	box-shadow: 1px 1px 15px 1px #757575;
+}
+.fa-lock{
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 150px;
+	font-size: 20px;
+	text-shadow: 0 0 8px #757575;
+}
