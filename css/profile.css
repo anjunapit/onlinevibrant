@@ -1,14 +1,23 @@
 /*Profile Page Start*/
 .profile-wrapper{
-	text-align: center;
 	margin-top: 20px;
-
+	border:1px solid #e0e0e0;
+	border-radius: 5px;
+	background-color: #E9EBEE;
 }
 .profile-wrapper img{
 	border-radius: 100%;
 	border:1px solid #eee;
-	width:40%;
-	margin:10px 0;
+	width:20%;
+	margin:1% 0 0 40%;
+	text-align: center;
+}
+.contact-detail {
+	padding:3%;
+}
+.contact-detail h6{
+	margin-top: 1%;
+	margin-left: 22%;
 }
 .user-progress-wrapper{
 	margin:20px 0;
@@ -66,7 +75,7 @@
 	margin:20px 0;
 	border:1px solid #eee;
 	border-radius: 5px;
-	box-shadow: 1px 1px 10px 1px #757575;
+	margin-top: -31%;
 }
 .subscription-wrapper h6{
 	font-size: 15px;
@@ -76,5 +85,46 @@
 .subscription-wrapper-content{
 	padding:15px;
 	text-align: center;
+}
+@media(max-width:1199px){
+	.subscription-wrapper{
+		margin-top: -43%;
+	}
+}
+@media(max-width:991px){
+	.subscription-wrapper{
+		margin-top: -69%;
+	}
+	.contact-detail h6 {
+		margin-top: 1%;
+		margin-left: 3%;
+	}
+}
+@media(max-width:767px){
+	.subscription-wrapper{
+		margin-top: 0;
+	}
+	.contact-detail h6 {
+		margin-top: 1%;
+		margin-left: 20%;
+	}
+}
+@media(max-width:428px){
+	.contact-detail h6 {
+		margin-top: 1%;
+		margin-left: 11%;
+	}
+}
+@media(max-width:400px){
+	.contact-detail h6 {
+		margin-top: 1%;
+		margin-left: 3%;
+	}
+}
+@media(max-width:358px){
+	.contact-detail h6 {
+		margin-top: 1%;
+		margin-left:0;
+	}
 }
 /*Profile Page End*/
