@@ -11,16 +11,66 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 				<div class="profile-wrapper">
 					<img src="images/download.png" alt="">
 					<div class="contact-detail">
-						<h6>Name :&nbsp;&nbsp;&nbsp;&nbsp;Susankya Tech</h6>
-						<h6>Email :&nbsp;&nbsp;&nbsp;&nbsp;example@gmail.com</h6>
+						<h6>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Susankya Tech</h6>
+						<h6>Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9801313130</h6>
+						<h6>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;example@gmail.com</h6>
+						<h6>Section&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						  	<button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#myModal">
+							    Choose Section
+							</button>
+							  <div class="modal fade" id="myModal">
+							    <div class="modal-dialog modal-dialog-centered modal-sm">
+							      <div class="modal-content">
+							        <div class="modal-header">
+							          <h4 class="modal-title">Edit your session</h4>
+							          <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        </div>
+							        <div class="modal-body">
+							        	<p>Session :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							          	<select id="country" name="country">
+									      <option>Select Session</option>
+									      <option>Pre-medical</option>
+									      <option>BPKIHS</option>
+									    </select>
+										</p>
+							        </div>
+							        <div class="modal-footer">
+							          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#memodal" data-dismiss="modal">Okay</button>
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+  							  <div class="modal fade" id="memodal">
+							    <div class="modal-dialog modal-dialog-centered modal-sm">
+							      <div class="modal-content">
+							        <div class="modal-header">
+							          <h4 class="modal-title">Edit your section</h4>
+							          <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        </div>
+							        <div class="modal-body">
+							        	<p>Section :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							          	<select id="country" name="country">
+									      <option>Select Section</option>
+									      <option>V7</option>
+									      <option>V10</option>
+									    </select>
+										</p>
+							        </div>
+							         <div class="modal-footer">
+								          <button type="button" class="btn btn-success" data-dismiss="modal">Okay</button>
+								        </div>
+							      </div>
+							    </div>
+							  </div>
+						</h6>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 				<div class="user-progress-wrapper">
 					<h6>Progress</h6>
 						<div class="progress-wrapper">
@@ -83,40 +133,30 @@
 				        </div>
 				</div>
 			</div>
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 				<div class="subscription-wrapper">
 					<h6>Your Subscription</h6>
 					<div class="subscription-wrapper-content">
 						<p>You are subscribed to trial period.</p>
-						  <!-- Button to Open the Modal -->
-							  <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">
-							    Update Now
-							  </button>
-
-							  <!-- The Modal -->
-							  <div class="modal fade" id="myModal">
-							    <div class="modal-dialog">
-							      <div class="modal-content">
-							      
-							        <!-- Modal Header -->
-							        <div class="modal-header">
-							          <h4 class="modal-title">Modal Heading</h4>
-							          <button type="button" class="close" data-dismiss="modal">&times;</button>
-							        </div>
-							        
-							        <!-- Modal body -->
-							        <div class="modal-body">
-							          Modal body..
-							        </div>
-							        
-							        <!-- Modal footer -->
-							        <div class="modal-footer">
-							          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							        </div>
-							        
-							      </div>
-							    </div>
-							  </div>
+						  <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#ourModal">
+						    Update Now
+						  </button>
+						  <div class="modal fade" id="ourModal">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <h4 class="modal-title">Modal Heading</h4>
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        </div>
+						        <div class="modal-body">
+						          Modal body..
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						        </div>
+						      </div>
+						    </div>
+						  </div>
 					</div>
 				</div>
 			</div>
