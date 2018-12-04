@@ -1,0 +1,33 @@
+.header-part{
+    padding:20px 0;
+}
+.header-part h3{
+    text-align: center;
+}
+.person-detail{
+
+}
+.left-section div{
+    display:flex;
+    float: left;
+}
+.right-section div{
+    display:flex;
+    float:right;
+}
+.objects{
+    margin-top:20px;
+}
+.objects h5{
+    text-decoration: underline;
+}
+.objects ol li{
+
+}
+table{
+    text-align:center;
+   
+}
+.footer-section{
+    padding:20px 0;
+}
